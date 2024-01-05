@@ -11,7 +11,6 @@ const Nav = () => {
     const [providers, setProviders] = useState(null);
     const [toggleDropdown, setToggleDropdown] = useState(false);
 
-
     useEffect(() => { 
       const setUpProviders = async () => {
       const response = await getProviders();
@@ -34,7 +33,7 @@ const Nav = () => {
             Promptopia
         </p>
       </Link>
-
+      
       {/* Desktop Navigation */}
       <div className='sm:flex hidden'>
         {session?.user ? (
