@@ -1,0 +1,1 @@
+Contains all my personal projects created using next js for learning and personal buisness purposes.
