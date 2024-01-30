@@ -22,10 +22,12 @@ const MyProfile = () => {
       }, []);
 
     const handleEdit = () => {
-
+      
     } 
   
-    const handleDelete = async () => {}
+    const handleDelete = async () => {
+
+    }
 
     return (
         <Profile
